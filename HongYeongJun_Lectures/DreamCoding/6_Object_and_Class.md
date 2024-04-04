@@ -3,4 +3,9 @@
 * 설계도로 만든 것: Object
 ```jsx
 class Person{
-constructor(
+constructor(name, age){
+  this.name = name;
+  this.age = age;
+  }
+}
+```
